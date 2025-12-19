@@ -11,34 +11,9 @@ export default function Home() {
   const features = [
     {
       id: "excellence",
-      icon: <FaTrophy className="text-3xl sm:text-4xl md:text-5xl text-[#002B7F]" />,
-      title: "Excellence in Sports",
-      description: "Promoting shooting sports excellence",
+      description: "The National Shooting Sport Federation of Sri Lanka (NSSF-SL) was founded on 12th July 2007 in order to govern all shooting disciplines coming under the purview of the International Shooting Sport Federation (ISSF).The newly formed federation was officially registered under the Ministry of Sports in Sri Lanka on 25th March 2011 and is a full member of the National Olympic Committee of Sri Lanka (NOC). The National Shooting Sport Federation of Sri Lanka is also duly affiliated to International Shooting Sport Federation (ISSF), Asian Shooting Confederation (ASC), Commonwealth Shooting Federation (CSF) and South Asian Shooting Confederation (SASC).",
     },
-    {
-      id: "development",
-      icon: <FaUsers className="text-3xl sm:text-4xl md:text-5xl text-[#002B7F]" />,
-      title: "Athlete Development",
-      description: "Nurturing future champions",
-    },
-    {
-      id: "precision",
-      icon: <FaBullseye className="text-3xl sm:text-4xl md:text-5xl text-[#002B7F]" />,
-      title: "Precision Training",
-      description: "World-class coaching",
-    },
-    {
-      id: "facilities",
-      icon: <FaMedal className="text-3xl sm:text-4xl md:text-5xl text-[#002B7F]" />,
-      title: "Modern Facilities",
-      description: "State-of-the-art ranges",
-    },
-    {
-      id: "international",
-      icon: <FaAward className="text-3xl sm:text-4xl md:text-5xl text-[#002B7F]" />,
-      title: "International Standards",
-      description: "Olympic-grade competitions",
-    },
+    
   ];
 
   return (
@@ -67,12 +42,14 @@ export default function Home() {
 
       {/* Affiliated Clubs Carousel */}
       <AffiliatedClubsCarousel />
+      
+      {/* Council Members */}
+      <CouncilMembers />
 
       {/* Matches Calendar */}
       <MatchesCalendar />
 
-      {/* Council Members */}
-      <CouncilMembers />
+     
 
       {/* Training Programs & Success Stories Section */}
       <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-50">
