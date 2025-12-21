@@ -18,7 +18,7 @@ export default function Features({ features, className = '' }: Readonly<Features
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-1 sm:gap-6 md:gap-8">
           {features.map((feature) => (
-            <div key={feature.id} className="flex flex-col items-center text-center">
+            <div key={feature.id} className="flex flex-col items-justify text-justify">
 
               {/* Description */}
               {feature.description && (
