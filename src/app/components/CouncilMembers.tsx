@@ -14,37 +14,37 @@ const councilMembers: CouncilMember[] = [
   {
     name: "Dr. Rajith Ferdinando",
     role: "President",
-    image: "https://picsum.photos/seed/president/400/400",
+    image: "",
     bio: "Leading NSSF with over 20 years of experience in shooting sports administration and Olympic committee work."
   },
   {
     name: "Mr. Samantha Wickramasinghe",
     role: "Vice President",
-    image: "https://picsum.photos/seed/vicepresident/400/400",
+    image: "",
     bio: "Former national champion and dedicated advocate for youth development in shooting sports across Sri Lanka."
   },
   {
     name: "Ms. Nadeeka Perera",
     role: "Secretary General",
-    image: "https://picsum.photos/seed/secretary/400/400",
+    image: "",
     bio: "Experienced sports administrator coordinating national and international shooting events for the federation."
   },
   {
     name: "Mr. Chandana Silva",
     role: "Treasurer",
-    image: "https://picsum.photos/seed/treasurer/400/400",
+    image: "",
     bio: "Chartered accountant ensuring financial excellence and transparency in all NSSF operations and programs."
   },
   {
     name: "Col. Roshan Dissanayake",
     role: "Technical Director",
-    image: "https://picsum.photos/seed/technical/400/400",
+    image: "",
     bio: "Military shooting expert overseeing technical standards, training programs, and safety protocols nationwide."
   },
   {
     name: "Mrs. Dilani Jayawardena",
     role: "Women's Committee Chair",
-    image: "https://picsum.photos/seed/womens/400/400",
+    image: "",
     bio: "Passionate about promoting women's participation and excellence in shooting sports at all competitive levels."
   }
 ];

@@ -3,9 +3,9 @@
 
 export const IMAGES = {
   // Hero Images (Large backgrounds)
-  HERO_GOLF_1: "/gallery/img-01.jpeg",
-  HERO_GOLF_2: "/gallery/img-02.jpeg", 
-  HERO_GOLF_3: "/gallery/img-03.jpeg",
+  HERO_SHOOT_1: "/gallery/img-01.jpeg",
+  HERO_SHOOT_2: "/gallery/img-02.jpeg", 
+  HERO_SHOOT_3: "/gallery/img-03.jpeg",
   
   // Large Hero Images
   HERO_LARGE_1: "/gallery/img-01.jpeg",
@@ -60,7 +60,7 @@ export const IMAGES = {
 
 // Image type mapping for easy reference
 export const IMAGE_CATEGORIES = {
-  HERO: [IMAGES.HERO_GOLF_1, IMAGES.HERO_GOLF_2, IMAGES.HERO_GOLF_3],
+  HERO: [IMAGES.HERO_SHOOT_1, IMAGES.HERO_SHOOT_2, IMAGES.HERO_SHOOT_3],
   HERO_LARGE: [IMAGES.HERO_LARGE_1, IMAGES.HERO_LARGE_2, IMAGES.HERO_LARGE_3],
   TEAM: [IMAGES.PERSON_MALE_1, IMAGES.PERSON_MALE_2, IMAGES.PERSON_FEMALE_1, IMAGES.PERSON_FEMALE_2],
   GALLERY: [IMAGES.GALLERY_1, IMAGES.GALLERY_2, IMAGES.GALLERY_3, IMAGES.GALLERY_4],
@@ -73,9 +73,9 @@ export const IMAGE_CATEGORIES = {
 // Alt text mapping for accessibility
 export const ALT_TEXT: Record<string, string> = {};
 
-ALT_TEXT[IMAGES.HERO_GOLF_1] = "Golf course landscape view 1";
-ALT_TEXT[IMAGES.HERO_GOLF_2] = "Golf course landscape view 2";
-ALT_TEXT[IMAGES.HERO_GOLF_3] = "Golf course landscape view 3";
+ALT_TEXT[IMAGES.HERO_SHOOT_1] = "Golf course landscape view 1";
+ALT_TEXT[IMAGES.HERO_SHOOT_2] = "Golf course landscape view 2";
+ALT_TEXT[IMAGES.HERO_SHOOT_3] = "Golf course landscape view 3";
 ALT_TEXT[IMAGES.PERSON_MALE_1] = "Male golf instructor";
 ALT_TEXT[IMAGES.PERSON_MALE_2] = "Male golf coach";
 ALT_TEXT[IMAGES.PERSON_FEMALE_1] = "Female golf instructor";

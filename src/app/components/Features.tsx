@@ -22,7 +22,7 @@ export default function Features({ features, className = '' }: Readonly<Features
 
               {/* Description */}
               {feature.description && (
-                <p className="text-sm sm:text-base md:text-lg lg:text-xl text-blue-900">{feature.description}</p>
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-900">{feature.description}</p>
               )}
             </div>
           ))}

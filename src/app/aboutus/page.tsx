@@ -317,7 +317,7 @@ export default function AboutUs() {
       {/* Call to Action Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Join the NSSF Family</h2>
+           {/*<h2 className="text-4xl md:text-5xl font-bold mb-6">Join the NSSF Family</h2>*/}
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
             Be part of Sri Lanka's premier shooting sports federation. Whether you're a beginner or an experienced shooter, 
             NSSF provides the platform, training, and support to achieve your goals.

@@ -17,7 +17,7 @@ export default function Events() {
       registrationDeadline: "February 28, 2025",
       entryFee: "LKR 15,000",
       description: "The premier annual shooting competition featuring all major Olympic disciplines. Open to all licensed shooters nationwide.",
-      image: IMAGES.HERO_GOLF_1,
+      image: IMAGES.HERO_SHOOT_1,
       status: "Registration Open"
     },
     {
@@ -31,7 +31,7 @@ export default function Events() {
       registrationDeadline: "March 20, 2025",
       entryFee: "LKR 8,000",
       description: "Specialized competition for young shooters under 21. Focus on skill development and competition experience with expert coaching.",
-      image: IMAGES.HERO_GOLF_2,
+      image: IMAGES.HERO_SHOOT_2,
       status: "Registration Open"
     },
     {
@@ -45,7 +45,7 @@ export default function Events() {
       registrationDeadline: "April 25, 2025",
       entryFee: "LKR 12,000",
       description: "High-precision competition for advanced shooters. Olympic qualification standards and international ranking points available.",
-      image: IMAGES.HERO_GOLF_3,
+      image: IMAGES.HERO_SHOOT_3,
       status: "Registration Opens Soon"
     },
     {
@@ -59,7 +59,7 @@ export default function Events() {
       registrationDeadline: "June 5, 2025",
       entryFee: "LKR 18,000",
       description: "Official qualifier for Asian Shooting Championships. Minimum Qualification Score (MQS) required for entry.",
-      image: IMAGES.HERO_GOLF_1,
+      image: IMAGES.HERO_SHOOT_1,
       status: "Upcoming"
     }
   ];

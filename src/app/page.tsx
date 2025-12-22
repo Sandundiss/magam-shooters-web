@@ -22,29 +22,24 @@ export default function Home() {
       <HeroSection
         subtitle="NATIONAL SHOOTING SPORTS FEDERATION"
         title="NSSF Sri Lanka"
-        description="The National Shooting Sports Federation of Sri Lanka is committed to developing and promoting shooting sports at all levels. We provide world-class training facilities, organize national and international competitions, and nurture athletes to represent Sri Lanka on the global stage."
-        primaryButtonText="View Events"
-        primaryButtonHref="/events"
-        secondaryButtonText="Join Federation"
-        secondaryButtonHref="/clubs"
         backgroundImages={[
-          IMAGES.HERO_GOLF_1,
-          IMAGES.HERO_GOLF_2,
-          IMAGES.HERO_GOLF_3
+          IMAGES.HERO_SHOOT_1,
+          IMAGES.HERO_SHOOT_2,
+          IMAGES.HERO_SHOOT_3
         ]}
       ></HeroSection>
 
       {/* Features Section */}
       <Features features={features} />
 
-      {/* Image Gallery Scroll */}
-      <ImageGalleryScroll />
+      {/* Council Members */}
+      <CouncilMembers />
 
       {/* Affiliated Clubs Carousel */}
       <AffiliatedClubsCarousel />
-      
-      {/* Council Members */}
-      <CouncilMembers />
+
+      {/* Image Gallery Scroll */}
+      <ImageGalleryScroll />
 
       {/* Matches Calendar */}
       <MatchesCalendar />

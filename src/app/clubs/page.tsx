@@ -101,7 +101,7 @@ export default function Clubs() {
       title: "Training Center",
       description: "Modern training facilities with simulation systems and analysis equipment",
       features: ["Simulation systems", "Performance analysis", "Video replay", "Coaching rooms"],
-      image: IMAGES.HERO_GOLF_1
+      image: IMAGES.HERO_SHOOT_1
     }
   ];
 

@@ -26,9 +26,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0 group">
             <img src="/logo.png" alt="Logo" className="w-6 sm:w-8" />
-            <span className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-gray-800 group-hover:text-[#FFD100] transition duration-200 luckiest-guy-regular whitespace-nowrap">
-              NSSF SriLanka
-            </span>
+            <span className="text-1xl sm:text-2xl lg:text-3xl xl:text-4xl font-poppins text-gray-800 group-hover:text-[#002B7F] transition duration-200 whitespace-nowrap">
+            NSSF Sri Lanka
+    </span>
+           
           </Link>
 
           {/* Desktop Navigation */}

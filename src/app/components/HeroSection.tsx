@@ -1,18 +1,11 @@
 'use client';
 
 import { IMAGES } from "@/config/images";
-import Link from 'next/link';
 import { ReactNode, useEffect, useState } from 'react';
-import { GiPistolGun } from "react-icons/gi";
 
 interface HeroSectionProps {
   readonly title: string;
   readonly subtitle: string;
-  readonly description: string;
-  readonly primaryButtonText: string;
-  readonly primaryButtonHref: string;
-  readonly secondaryButtonText?: string;
-  readonly secondaryButtonHref?: string;
   readonly backgroundImages?: string[];
   readonly backgroundOverlay?: boolean;
   readonly children?: ReactNode;
@@ -27,11 +20,6 @@ const defaultImages = [
 export default function HeroSection({
   title,
   subtitle,
-  description,
-  primaryButtonText,
-  primaryButtonHref,
-  secondaryButtonText,
-  secondaryButtonHref,
   backgroundImages = defaultImages,
   backgroundOverlay = true,
   children,
@@ -87,10 +75,9 @@ export default function HeroSection({
       {/* Content Container */}
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Shooting Icon */}
-          <div className="flex justify-center mb-4">
-            <GiPistolGun className="text-6xl md:text-7xl" style={{ color: '#D71920', filter: 'drop-shadow(0 2px 8px #D71920AA)' }} />
-          </div>
+         <div className="flex justify-center">
+  <img src="/logo.png" alt="Logo" className="w-30 sm:w-32" />
+</div>
           {/* Subtitle */}
 
           <div className="mb-3 sm:mb-4 md:mb-6">
@@ -104,15 +91,10 @@ export default function HeroSection({
 
           {/* Main Title */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight saira-extra-condensed text-white">
-            {title || "Magam Shooters Championship 2025"}
+            {title || "National Shooting Sports Fedaration"}
           </h1>
 
-          {/* Description */}
-          <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 md:mb-12 leading-relaxed max-w-2xl mx-auto text-white">
-            {description || "Welcome to the premier shooting sports event in Sri Lanka! Compete in pistol, rifle, and shotgun disciplines, challenge your accuracy and speed, and join a community of passionate marksmen. Register now to secure your spot in the Magam Shooters Championship 2025."}
-          </p>
-
-          {/* Buttons */}
+          {/* Buttons 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-8 sm:mb-12">
             <Link
               href={primaryButtonHref || "/register"}
@@ -131,7 +113,7 @@ export default function HeroSection({
               </Link>
             )}
           </div>
-
+*/}
           {/* Additional Content */}
           {children && <div className="mt-8 sm:mt-12">{children}</div>}
         </div>
