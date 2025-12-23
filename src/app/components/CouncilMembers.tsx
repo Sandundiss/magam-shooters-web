@@ -59,7 +59,7 @@ export default function CouncilMembers() {
             Leadership
           </p>
           <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: colors.primary.navy }}>
-            Council Members
+            Executive committee
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Meet the dedicated leaders guiding Sri Lanka's shooting sports federation towards excellence
